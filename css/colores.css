@@ -42,3 +42,7 @@
     background-color: rgb(229, 88, 88);
     color: black;
 }
+
+td, th{
+    text-align: center;
+}
