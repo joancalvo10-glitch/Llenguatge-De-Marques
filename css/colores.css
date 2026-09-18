@@ -1,0 +1,44 @@
+#celaPati{
+    background-color: red;
+    color: whitesmoke;
+}
+
+.celaweb {
+    background-color: rgb(0, 238, 255);
+    color: black;
+}
+
+.celaProgra{
+    background-color: pink;
+    color: black;
+}
+
+.celaSistemes{
+    background-color: rgb(205, 144, 32);
+    color: black;
+}
+
+.celaFol{
+    background-color: rgb(86, 118, 215);
+    color: black;
+}
+
+.celaEYE{
+    background-color: rgb(159, 255, 159);
+    color: black;
+}
+
+.celaBBDD{
+    background-color: rgb(253, 128, 253);
+    color: black;
+}
+
+.celaERP{
+    background-color: rgb(191, 237, 83);
+    color: black;
+}
+
+.celaTutoria{
+    background-color: rgb(229, 88, 88);
+    color: black;
+}

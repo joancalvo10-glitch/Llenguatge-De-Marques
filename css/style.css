@@ -6,3 +6,13 @@
     list-style: none;
 }
 
+.textCeles{
+    justify-content: center;
+
+}
+#celaPati{
+    background-color: red;
+    color: whitesmoke;
+}
+
+
