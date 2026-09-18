@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 16px;
+    padding: 32px;
+    border: 8px solid red;
+
+
+}
