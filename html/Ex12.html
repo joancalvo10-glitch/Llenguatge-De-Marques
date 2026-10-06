@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="cat">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Exercici 12</title>
+        <meta name="description" content="Exercici 1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+    <header>
+        <h1>Benvinguts al meu Lloc Web Personal</h1>
+        <p>Aquest lloc web reuneix tot el que he après sobre HTML5: estructures semàntiques, llistes, taules, contingut multimèdia i formularis d'interacció.</p>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="llista">
+            <h2>Les meves preferències i tasques</h2>
+            <h3>Llista de tasques pendents:</h3>
+            <ol>
+                <li>Finalitzar el projecte web d'HTML5.</li>
+                <li>jugar al fifa.</li>
+                <li>que arribin les vacances.</li>
+            </ol>
+
+            <h3>Les meves aficions:</h3>
+            <ul>
+                <li>El waterpolo</li>
+                <li>La musica</li>
+                <li>Els videojocs</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="horari">
+            <h2>Agenda / Horari Setmanal</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Activitat principal</th>
+                        <th>Horari</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dilluns</td>
+                        <td>Programació</td>
+                        <td>08:00 - 11:00</td>
+                    </tr>
+                    <tr>
+                        <td>Dimecres</td>
+                        <td>Bases de dades</td>
+                        <td>10:30 - 12:30</td>
+                    </tr>
+                    <tr>
+                        <td>Divendres</td>
+                        <td>Web</td>
+                        <td>8:00 - 11:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="multimedia">
+            <h2>Contingut Multimèdia</h2>
+            <p>Video preferit:</p>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/watch?v=1HD9QScMidQ" 
+                title="Vídeo de YouTube" 
+                allowfullscreen>
+            </iframe>
+            <p>
+                També pots accedir al vídeo mitjançant aquest 
+                <a href="https://www.youtube.com/watch?v=1HD9QScMidQ" target="_blank" rel="noopener noreferrer">enllaç directe a YouTube</a>.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="contacte">
+            <h2>Formulari de Contacte</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="nom">Nom:</label><br>
+                    <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Correu electrònic:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Escriu el teu correu" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="missatge">Missatge:</label><br>
+                    <textarea id="missatge" name="missatge" rows="5" cols="40" placeholder="Escriu aquí el teu missatge..." required></textarea>
+                </div>
+
+                <br>
+
+                <button type="submit">Enviar missatge</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 - Projecte de consolidació HTML5. Tots els drets reservats.</p>
+    </footer>
+
+    </body>
+</html>
