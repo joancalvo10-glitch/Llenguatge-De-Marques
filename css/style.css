@@ -20,7 +20,69 @@ h1
     margin: 1em;
     padding:0;
     color:rgb(129, 129, 238);
+}
 
+.root{
+    height: 100vh;
+    width: 100vw;
+   
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr 2fr 2fr;
+}
+
+.header {
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.main {
+    grid-column: 3;
+    grid-row: 3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 
 }
 
+.card{
+    border: 1px solid
+
+}
+
+.img-card{
+    height: 1em;
+    width: 1em;
+}
+
+#jimothy{
+
+}
+
+.aside{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.footer {
+    grid-column: 1 / -1;
+    grid-row: 4;
+}
+
+.flex{
+    display: flex;
+}
+
+.fexCol{
+    flex-direction: column;
+}
+
+.flexRow{
+    flex-direction: row;
+}

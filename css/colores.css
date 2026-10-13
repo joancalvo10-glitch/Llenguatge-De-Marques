@@ -46,3 +46,18 @@
 td, th{
     text-align: center;
 }
+.bg-crimson{
+    background-color: crimson;
+}
+.bg-blue{
+    background-color: cornflowerblue;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-purple{
+    background-color: purple;
+}
