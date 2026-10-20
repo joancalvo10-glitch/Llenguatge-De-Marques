@@ -1,0 +1,29 @@
+.wrapper{
+    height:100vh;
+    width: 100vw;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1 3fr 1fr;
+    grid-gap: 10px;
+    display:grid;
+}
+
+.header{
+    grid-column: 2/-1;
+    grid-row: 1;
+    background-color: grey;
+}
+.sidebar{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(37, 35, 35);
+}
+.content{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(62, 57, 57);
+}
+.footer{
+    grid-column: 1/-1;
+    grid-row:3;
+    background-color: gray;
+}
